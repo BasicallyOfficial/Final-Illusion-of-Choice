@@ -4,19 +4,18 @@ This is my first ever game, and it is a choose your own adventure game where you
 
 ## **Project Timeline**
 
-### Functional Gamestate
+### Expanded Framework
 
-By 4/17 I hope to have working gamestates that make the game playable at the bare essentials
+By 5/8 I plan to have the outlined framework ready for the planned additions to my project
 
-### Visual Elements
+### Mechanically Complete
 
-By 4/20 I hope to have the visual elements and style of the software laid out on top of the already established framework
+By 5/11 I want to have implemented the new levels, choices, and mechanics of the final game, possibly even adding different endings available to the player furthering the messages and themes of the original game
 
-### Debugging
+### Updated Visuals and Assets
 
-By 4/24 I hope to have my bugs ironed out and have the software in a completed and playable state
+By 5/15 I hope to have updated the visual elements of the project including assets, fonts, and the webpage background
 
-### Finishing Touches
+### Debugging and Sound Design
 
-By 4/27 I will have made the finishing touches and fixes to the Project and it will be considered completed
->>>>>>> 6c648486b745485c2d9df1ff36bde9d374774da1
+By 5/20 I will have ironed out all my bugs and have added music and sound effects to fully immerse the player into the experience, and make a more lasting impression on my audience
