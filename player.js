@@ -67,6 +67,26 @@ class player {
   hitCheck1() {
     if (this.xpos > 100 && this.xpos < 200 || this.xpos > 400 && this.xpos < 500) {
       if (this.ypos > 575) {
+        gameState = 'stage1.1';
+        this.xpos = width / 2;
+        this.ypos = height / 2;
+      }
+    }
+  }
+
+  hitCheck101() {
+    if (this.xpos > 100 && this.xpos < 200 || this.xpos > 400 && this.xpos < 500) {
+      if (this.ypos > 575) {
+        gameState = 'stage1.2';
+        this.xpos = width / 2;
+        this.ypos = height / 2;
+      }
+    }
+  }
+
+  hitCheck102() {
+    if (this.ypos > 350 && this.ypos < 450) {
+      if (this.xpos < 25 || this.xpos > 575) {
         gameState = 'stage2';
         this.xpos = width / 2;
         this.ypos = height / 2;

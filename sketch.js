@@ -28,6 +28,12 @@ function draw() {
     case 'stage1':
       level1();
       break;
+      case 'stage1.1':
+        level101();
+        break;
+      case 'stage1.2':
+        level102();
+        break;
     case 'stage2':
       level2();
       break;
@@ -115,6 +121,61 @@ function level1() {
   playerD.hitCheck1();
 }
 
+function level101() {
+  background(255, 255, 255);
+  push()
+  strokeWeight(10);
+  noFill();
+  rect(0, 0, 600, 600);
+  pop()
+  playerD.display();
+  playerD.move();
+  playerD.bound();
+  push();
+  strokeWeight(25);
+  stroke(156, 29, 0);
+  scribble.scribbleRect(150, 600, 100, 20);
+  stroke(0, 98, 237);
+  scribble.scribbleRect(450, 600, 100, 20);
+  pop()
+  push()
+  textSize(35);
+  textAlign(CENTER);
+  textStyle(BOLD);
+  textFont('Comic Sans MS');
+  text('Now,', width * 0.5, height * 0.25);
+  text('Walk through the BLUE door', width * 0.5, height * 0.35);
+  pop()
+  playerD.hitCheck101();
+}
+
+function level102() {
+  background(255, 255, 255);
+  push()
+  strokeWeight(10);
+  noFill();
+  rect(0, 0, 600, 600);
+  pop()
+  playerD.display();
+  playerD.move();
+  playerD.bound();
+  push();
+  strokeWeight(25);
+  stroke(156, 29, 0);
+  scribble.scribbleRect(0, 400, 20, 100);
+  stroke(0, 98, 237);
+  scribble.scribbleRect(600, 400, 20, 100);
+  pop()
+  push()
+  textSize(35);
+  textAlign(CENTER);
+  textStyle(BOLD);
+  textFont('Comic Sans MS');
+  text('Hmmmmm...', width * 0.5, height * 0.2);
+  text('Walk through the RED door again', width * 0.5, height * 0.3);
+  pop()
+  playerD.hitCheck102();
+}
 
 function level2() {
   background(255, 255, 255);
