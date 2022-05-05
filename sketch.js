@@ -55,6 +55,9 @@ function draw() {
     case 'endstage':
       Gameover();
       break;
+      case 'escape':
+        Gamewin();
+        break;
   }
 }
 
@@ -362,6 +365,7 @@ function level5() {
   scribble.scribbleRect(450, 600, 100, 20);
   pop()
   playerD.hitCheck5();
+  playerD.hitCheck51();
 }
 
 function Gameover() {
@@ -377,6 +381,31 @@ function Gameover() {
   textSize(22);
   textAlign(CENTER);
   textFont('Comic Sans MS');
+  text('Everything the future holds has already been decided', width * 0.5, height * 0.2);
+  text('Since the moment time began to turn', width * 0.5, height * 0.25);
+  textSize(25);
+  text('Fate is just the universe working like dominoes', width * 0.5, height * 0.45);
+  textSize(20);
+  text('With all of the pieces already set up', width * 0.5, height * 0.5);
+  text('Each domino not knowing when it was meant to fall', width * 0.5, height * 0.6);
+  textSize(35);
+  text('Try Again With Enter', width * 0.5, height * 0.85);
+  pop()
+}
+
+function Gamewin() {
+  background(255, 255, 255);
+  push();
+  strokeWeight(10);
+  noFill();
+  rect(0, 0, 600, 600);
+  noStroke();
+  pop();
+  push();
+  fill(0);
+  textSize(22);
+  textAlign(CENTER);
+  textFont('Verdana');
   text('Everything the future holds has already been decided', width * 0.5, height * 0.2);
   text('Since the moment time began to turn', width * 0.5, height * 0.25);
   textSize(25);

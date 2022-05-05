@@ -163,4 +163,15 @@ class player {
       }
     }
   }
+
+  hitCheck51() {
+    if (this.xpos > 10 && this.xpos < 590) {
+      if (this.ypos < 25) {
+        gameState = 'escape';
+        this.xpos = width / 2;
+        this.ypos = height / 2;
+      }
+    }
+  }
+
 }
