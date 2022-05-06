@@ -441,10 +441,10 @@ function keyReleased() {
     if (keyCode === ENTER) {
       gameState = 'stage1';
     }
-  } else if (gameState === 'endstage') {
+  } else if (gameState === 'endstage' || gameState === 'escape') {
     if (keyCode === ENTER) {
       gameState = 'title';
-    }
+      }
   } else if (gameState === 'Tstage1') {
     if (keyCode === ENTER) {
       gameState = 'stage4';
