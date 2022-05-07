@@ -403,18 +403,23 @@ function Gamewin() {
   pop();
   push();
   fill(0);
-  textSize(22);
+  textSize(27);
   textAlign(CENTER);
   textFont('Verdana');
-  text('Everything the future holds has already been decided', width * 0.5, height * 0.2);
-  text('Since the moment time began to turn', width * 0.5, height * 0.25);
+  text('Although I could be wrong...', width * 0.5, height * 0.15);
   textSize(25);
-  text('Fate is just the universe working like dominoes', width * 0.5, height * 0.45);
+  text('Maybe humanity is made of more than just', width * 0.5, height * 0.3);
   textSize(20);
-  text('With all of the pieces already set up', width * 0.5, height * 0.5);
-  text('Each domino not knowing when it was meant to fall', width * 0.5, height * 0.6);
+  text('Brain chemistry and electrical currents', width * 0.5, height * 0.35);
+  text('Firing off in a predetermined manner', width * 0.5, height * 0.4);
+  textSize(21);
+  text('Perhaps some transcendental entity or force', width * 0.5, height * 0.5);
+  text('Allows us to be more than just impulsive animals', width * 0.5, height * 0.55);
+  textSize(25);
+  text('Just maybe...', width * 0.5, height * 0.7);
+  text('A soul can truly decide it\'s own fate', width * 0.5, height * 0.8);
   textSize(35);
-  text('Try Again With Enter', width * 0.5, height * 0.85);
+  text('Enter', width * 0.5, height * 0.95);
   pop()
 }
 
