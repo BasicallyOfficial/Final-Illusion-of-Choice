@@ -5,12 +5,19 @@ var scribble = new Scribble();
 var img1;
 var img2;
 var img3;
+var door;
+var escape;
 
 function preload() {
   // load image
   img1 = loadImage("Assets/background01.png");
   img2 = loadImage("Assets/background02.png");
   img3 = loadImage("Assets/background03.png");
+  var sound = new Howl({
+    src: ['sound.mp3']
+  });
+  door = loadSound("Assets/Door.wav");
+  escape = loadSound("Assets/Escape.wav");
 }
 
 function setup() {
@@ -445,6 +452,7 @@ function keyReleased() {
   if (gameState === 'title') {
     if (keyCode === ENTER) {
       gameState = 'stage1';
+      door.play();
     }
   } else if (gameState === 'endstage' || gameState === 'escape') {
     if (keyCode === ENTER) {

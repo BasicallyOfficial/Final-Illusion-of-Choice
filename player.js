@@ -70,6 +70,7 @@ class player {
         gameState = 'stage1.1';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -80,6 +81,7 @@ class player {
         gameState = 'stage1.2';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -90,6 +92,7 @@ class player {
         gameState = 'stage2';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -100,6 +103,7 @@ class player {
         gameState = 'stage3';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -110,6 +114,7 @@ class player {
         gameState = 'Tstage1';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -120,6 +125,7 @@ class player {
         gameState = 'Tstage2';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -130,6 +136,7 @@ class player {
         gameState = 'Tstage2';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -140,6 +147,7 @@ class player {
         gameState = 'Tstage2';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -150,6 +158,7 @@ class player {
         gameState = 'Tstage2';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -160,6 +169,7 @@ class player {
         gameState = 'endstage';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        door.play();
       }
     }
   }
@@ -170,6 +180,7 @@ class player {
         gameState = 'escape';
         this.xpos = width / 2;
         this.ypos = height / 2;
+        escape.play();
       }
     }
   }
