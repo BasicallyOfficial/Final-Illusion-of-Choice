@@ -387,15 +387,16 @@ function Gameover() {
   fill(255, 255, 255);
   textSize(22);
   textAlign(CENTER);
-  textFont('Comic Sans MS');
+  textFont('Play');
   text('Everything the future holds has already been decided', width * 0.5, height * 0.2);
   text('Since the moment time began to turn', width * 0.5, height * 0.25);
   textSize(25);
   text('Fate is just the universe working like dominoes', width * 0.5, height * 0.45);
   textSize(20);
   text('With all of the pieces already set up', width * 0.5, height * 0.5);
-  text('Each domino not knowing when it was meant to fall', width * 0.5, height * 0.6);
+  text('Each domino not knowing when it was meant to fall', width * 0.5, height * 0.7);
   textSize(35);
+  textFont('Comic Sans MS');
   text('Try Again With Enter', width * 0.5, height * 0.85);
   pop()
 }
@@ -410,22 +411,22 @@ function Gamewin() {
   pop();
   push();
   fill(0);
-  textSize(27);
+  textSize(30);
   textAlign(CENTER);
-  textFont('Verdana');
+  textFont('Rajdhani');
   text('Although I could be wrong...', width * 0.5, height * 0.15);
-  textSize(25);
-  text('Maybe humanity is made of more than just', width * 0.5, height * 0.3);
-  textSize(20);
+  textSize(28);
+  text('Maybe humanity is made of more than just', width * 0.5, height * 0.28);
+  textSize(23);
   text('Brain chemistry and electrical currents', width * 0.5, height * 0.35);
   text('Firing off in a predetermined manner', width * 0.5, height * 0.4);
-  textSize(21);
-  text('Perhaps some transcendental entity or force', width * 0.5, height * 0.5);
-  text('Allows us to be more than just impulsive animals', width * 0.5, height * 0.55);
-  textSize(25);
-  text('Just maybe...', width * 0.5, height * 0.7);
-  text('A soul can truly decide it\'s own fate', width * 0.5, height * 0.8);
-  textSize(35);
+  textSize(24);
+  text('Perhaps some transcendental entity or force', width * 0.5, height * 0.55);
+  text('Allows us to be more than just impulsive animals', width * 0.5, height * 0.6);
+  textSize(28);
+  text('Just maybe...', width * 0.5, height * 0.72);
+  text('A soul can truly decide it\'s own fate', width * 0.5, height * 0.82);
+  textSize(40);
   text('Enter', width * 0.5, height * 0.95);
   pop()
 }
