@@ -13,9 +13,12 @@ function preload() {
   img1 = loadImage("Assets/background01.png");
   img2 = loadImage("Assets/background02.png");
   img3 = loadImage("Assets/background03.png");
+  //background music
   var sound = new Howl({
-    src: ['sound.mp3']
+    src: ['Assets/Music.mp3']
   });
+    sound.play();
+    Howler.volume(0.2);
   door = loadSound("Assets/Door.wav");
   escape = loadSound("Assets/Escape.wav");
 }
