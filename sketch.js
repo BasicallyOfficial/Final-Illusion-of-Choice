@@ -2,17 +2,21 @@ let gameState = 'title';
 let playerD;
 let directionD;
 var scribble = new Scribble();
-var img1;
 var img2;
 var img3;
+var img4;
+var img101;
+var img102;
 var door;
 var escape;
 
 function preload() {
   // load image
-  img1 = loadImage("Assets/background01.png");
-  img2 = loadImage("Assets/background02.png");
-  img3 = loadImage("Assets/background03.png");
+  img2 = loadImage("Assets/background01.png");
+  img3 = loadImage("Assets/background02.png");
+  img4 = loadImage("Assets/background03.png");
+  img101 = loadImage("Assets/background04.png");
+  img102 = loadImage("Assets/background05.png");
   //background music
   var sound = new Howl({
     src: ['Assets/Music.mp3']
@@ -137,6 +141,7 @@ function level1() {
 function level101() {
   background(255, 255, 255);
   push()
+  image(img101, 0, 0);
   strokeWeight(10);
   noFill();
   rect(0, 0, 600, 600);
@@ -165,6 +170,7 @@ function level101() {
 function level102() {
   background(255, 255, 255);
   push()
+  image(img102, 0, 0);
   strokeWeight(10);
   noFill();
   rect(0, 0, 600, 600);
@@ -193,7 +199,7 @@ function level102() {
 function level2() {
   background(255, 255, 255);
   push()
-  image(img1, 0, 0);
+  image(img2, 0, 0);
   strokeWeight(10);
   noFill();
   rect(0, 0, 600, 600);
@@ -224,7 +230,7 @@ function level2() {
 function level3() {
   background(255, 255, 255);
   push()
-  image(img2, 0, 0);
+  image(img3, 0, 0);
   strokeWeight(10);
   noFill();
   rect(0, 0, 600, 600);
@@ -283,7 +289,7 @@ function text1() {
 function level4() {
   background(255, 255, 255);
   push()
-  image(img3, 0, 0);
+  image(img4, 0, 0);
   strokeWeight(10);
   noFill();
   rect(0, 0, 600, 600);
