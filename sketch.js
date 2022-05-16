@@ -9,6 +9,7 @@ var img101;
 var img102;
 var door;
 var escape;
+let myShapes = [];
 
 function preload() {
   // load image
@@ -32,6 +33,11 @@ function setup() {
   var canvas = createCanvas(600, 600);
   canvas.parent('sketch-holder');
   frameRate(60);
+  for (let i = 0; i < 30; i++) {
+   let x = random(width*.075, width*.925);
+    let y = random(height*.075, height*.925);
+   myShapes[i] = new Scribbleshape(x,y);
+ }
 }
 
 function draw() {
@@ -96,6 +102,14 @@ function keyPressed() {
 
 function Titlescreen() {
   background(255, 255, 255);
+  for (let i = 0; i < 25; i++) {
+    if (i % 2 == 0) {
+  myShapes[i].circledisplay();
+} else {
+  myShapes[i].rectdisplay();
+}
+
+}
   push();
   strokeWeight(10);
   noFill();

@@ -25,3 +25,20 @@ canvas {
 .button2:hover {
   background-color: gray;
 }
+
+.leftpadding{
+   padding-left:400px;
+  flex-direction:column;
+  align-items:left;
+}
+
+.rightpadding{
+   padding-left:400px;
+  flex-direction:column;
+  align-items:right;
+}
+
+.layout-container{
+    display:flex;
+    flex-direction:row;
+  }
