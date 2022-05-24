@@ -1,6 +1,6 @@
 # **101 Final-Illusion-of-Choice**
 
-This is my first ever game, and it is a choose your own adventure game where you don't have any choices. It is an exercise in thinking about the concept of free will, and whether humans possess the capacity to make decisions that shape their future, or if fate is already predetermined. I used the p5js community library "Scribble" and photoshop to create the visual style and assets to give a deceivingly innocent and simple appearance. It is also inspired by other existential games such as The Stanley Parable from 2013.
+This is my first ever game, and it is a choose your own adventure game where you don't have any choices. It is an exercise in thinking about the concept of free will, and whether humans possess the capacity to make decisions that shape their future, or if fate is already predetermined. I used the p5js community library "Scribble" and photoshop to create the visual style and assets to give a deceivingly innocent and simple appearance. In addition, I also used the "Howler" library for the music. It is also inspired by other existentialist games such as The Stanley Parable from 2013.
 
 ## **Project Timeline**
 
